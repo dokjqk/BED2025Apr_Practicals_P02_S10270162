@@ -1,0 +1,7 @@
+During Part A of the practical, I learned how REST APIs allow communication between client and server using standard HTTP methods. I gained a clearer understanding of how GET, POST, PUT, and DELETE are used to implement CRUD operations.
+
+Why use POST for creating resources and PUT for updating?
+POST is used to create resources because it allows the server to generate a new resource with a unique identifier. PUT is used for updating because it always gives the same result, even if you send the request more than once. This makes it a good choice when you want to make sure the data is updated in a consistent way.
+
+What status code should be returned when attempting to update a non-existent resource?
+The status code is 404 Not Found.

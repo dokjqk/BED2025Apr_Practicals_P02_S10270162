@@ -1,0 +1,27 @@
+1a. app.use(express.json())
+- tells the Express app to automatically parse incoming JSON request bodies.
+
+1b. req.body
+- contains data by the client in the body of the HTTP request. (POST /food and PUT /food/:id)
+
+1c.req.query
+- contains the parse query parameters from the URL for the request (/foods?name=burger)
+
+1d. req.params.id
+- an object containing parameter values parsed from the URL path. (PUT /food/:id)
+
+2. APIs are aligned with CRUD (Create, Read, Update, Delete) operations in database management. GET = Read, POST =  Create, PUT = Update, DELETE = Delete.
+It is scalable and improves client and server interactions and it also works with different browsers and clients. It is also consistent and it is standardised.
+
+
+3. Explain the meaning of these HTTP status codes:
+200 OK
+- The request is successful.
+201 Created
+- A new resource was successfully created.
+400 Bad Request
+- The server couldn't understand the request due to bad syntax
+404 Not Found
+- The requested resource doesn't exist on the server.
+500 Internal Server Error
+- A generic error occurred on the server while processing the request.
