@@ -1,0 +1,25 @@
+Task 1: Reflection on Refactoring
+
+Reflect on the process of refactoring the API code into the MVC structure by answering the following questions:
+
+    What were the main changes you made to refactor the code into MVC architecture? Describe how you moved code between files and folders.
+        - I separated the code into Models, Controllers, and View, moving each to their respective folders.
+    What challenges did you face during the refactoring process?
+        - There are several times where I mistype the folder names.
+    How does the MVC structure change the way you think about adding new features or modifying existing ones compared to the previous non-MVC structure?
+        - It made it more concise. It pretty similar to functions in Python or classes in C# in a way.
+    In what specific ways do you think the MVC version is more organized or easier to understand and maintain than the previous version where all logic was in app.js?
+        - Having it separate, made my code look cleaner.
+    Explain how separating concerns (putting database logic in the Model and request handling in the Controller) makes the code better from a development perspective.
+        - Easier to understand. Makes development more faster. 
+
+Task 2: Reflecting on Robustness & Security
+
+Reflect on the impact of validation, error handling, and parameterized queries by answering the following questions:
+
+    How does implementing input validation middleware make the API more reliable and user-friendly? Provide an example of invalid input that your validation would now handle.
+        - SQL injection
+    Explain in your own words how parameterized queries prevent SQL injection attacks. Why is this approach fundamentally more secure than building SQL query strings by concatenating variable data?
+        - Parameterized queries prevent SQL injection by separating code from user input, treating input as data, not executable SQL.
+    Consider a potential security risk for an API (other than SQL injection, e.g., brute-force attacks, exposing sensitive data in responses). How might robust error handling (like not showing detailed error messages to the client) help mitigate such a risk?
+        - Hiding detailed error messages protects internal logic from attackers and avoids revealing system weaknesses.
