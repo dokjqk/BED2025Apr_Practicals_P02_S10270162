@@ -10,3 +10,5 @@ Practical 04: Building Maintainable and Secure APIs with MVC :white_check_mark:
 Practical 05: Adding the View Layer to the Books API :white_check_mark:
 
 Practical 06: Building User Functionalities and Relationships :white_check_mark:
+
+Practical 07 & 08: Polytechnic Library API :white_check_mark:
